@@ -1,7 +1,5 @@
 from sqlalchemy import create_engine, Column, Integer, String, MetaData, Table
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-from typing import List, Optional
+from typing import List
 from databases import Database
 from fastapi import FastAPI
 from pydantic import BaseModel, Field, EmailStr
